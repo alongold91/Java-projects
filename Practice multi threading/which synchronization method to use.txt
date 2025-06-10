@@ -1,0 +1,6 @@
+Quick decision guide:
+* Simple protection -> synchronized
+* Need flexibility -> ReentrantLock
+* Thread coordination -> wait/notify or Condition
+* Resource pooling (managing a limited set of shared resources that multiple threads/processes can use, but not all at the same time) -> Semaphore
+* High performance, rare conflicts -> Atomic classes (optimistic)

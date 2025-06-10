@@ -1,0 +1,10 @@
+https://docs.google.com/document/d/185xNkgwNKo_Xp_t_tX5qeB1rkk4Dg-cBZiLbuLg4jUQ/edit?tab=t.st10j9n0rta6
+
+
+Architecture
+Presentation layer [controller, routes]- handles http rqeusts, authentication and JSON conversion.
+Business Layer[Service]- contains business logic, validation and authorization.
+Persistence layer[repository]- Manages database interactions using ORM frameworks.
+Database layer[model]- Stores application data using either a rational or NoSQL database.
+
+https://www.geeksforgeeks.org/spring-boot-architecture/
